@@ -9,10 +9,10 @@ const FirstPage: React.FC = () => {
   useEffect(() => {
     console.log('Component mounted');
 
-    // Simulate fetching data from an API
+      // Simulate fetching data from an API
     setTimeout(() => {
       setData('Hello from useEffect on First Page!');
-    }, 2000);
+    }, 1000);
 
     // Cleanup function (optional)
     return () => {
